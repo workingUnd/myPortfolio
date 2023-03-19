@@ -32,7 +32,6 @@
 @media (max-width: 1000px) {
   .main-img {
     margin-top: 50px;
-    margin-bottom: 50px !important;
   }
   .main-img img {
     width: 100% !important;
@@ -61,6 +60,24 @@
   }
   .heading .headingtwo p {
     font-size: 18px !important;
+  }
+}
+
+@media (max-width: 1200px) {
+  .description {
+    padding: 0px 140px !important;
+  }
+}
+
+@media (max-width: 991px) {
+  .description {
+    padding: 0px !important;
+  }
+  .image img {
+    width: 100% !important;
+    height: auto;
+    -o-object-fit: cover;
+       object-fit: cover;
   }
 }
 
@@ -204,6 +221,7 @@ a {
 footer {
   padding: 80px 0;
   border-top: 1px solid #efebeb;
+  margin-top: 50px;
 }
 
 .footer-content {
@@ -240,5 +258,52 @@ footer {
 
 .footer-icons a:hover {
   color: #de0f66;
+}
+
+.image {
+  text-align: center;
+  margin-top: 80px;
+}
+
+.image img {
+  width: 80%;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.description {
+  padding: 0px 180px;
+  margin: 60px 0;
+}
+
+.description .bold {
+  font-weight: 600;
+}
+
+.description p {
+  line-height: 2;
+  font-size: 18px;
+}
+
+.description p span {
+  color: #de0f66;
+  font-weight: 600;
+}
+
+.description a {
+  border: 2px solid #de0f66;
+  padding: 10px 40px;
+  border-radius: 0;
+  text-align: center;
+  color: #de0f66;
+  font-weight: 600;
+  font-size: 16px;
+  margin-top: 40px;
+}
+
+.description a:hover {
+  background: #de0f66;
+  color: #fff;
 }
 /*# sourceMappingURL=main.css.map */

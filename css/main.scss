@@ -103,6 +103,7 @@ a{
 footer{
     padding: 80px 0;
     border-top: 1px solid #efebeb;
+    margin-top: 50px;
 }
 .footer-content{
     text-align: center;
@@ -129,6 +130,44 @@ footer{
         }
         &:hover{
             color: $colorLinksHover;
+        }
+    }
+}
+.image{
+    text-align: center;
+    margin-top: 80px;
+    img{
+        width: 80%;
+        height:auto;
+        object-fit: cover;
+    }
+}
+.description{
+    padding:0px 180px;
+    margin: 60px 0;
+    .bold{
+        font-weight: 600;
+    }
+    p{
+        line-height: 2;
+        font-size: 18px;
+        span{
+            color: $colorTextPink;
+            font-weight: 600;
+        }
+    }
+    a{
+        border: 2px solid #de0f66;
+        padding: 10px 40px;
+        border-radius: 0;
+        text-align: center;
+        color: $colorTextPink;
+        font-weight: 600;
+        font-size: 16px;
+        margin-top: 40px;
+        &:hover{
+            background:$backgroundbtn;
+            color: $colorLinksHoverBtn;
         }
     }
 }
