@@ -13,9 +13,25 @@
         width: 100%!important;
     }
 }
-@media (max-width: 1391px){
-    .heading{
-        padding-top: 0px!important;
-
+@media (max-width: 1000px){
+    .ferst-block{
+        display: block!important;
+        .heading{
+            width: 100%!important;
+        }
+        .main-img{
+            width:100%!important;
+        }
+    }
+}
+@media (max-width: 1000px){
+    .main-img{
+        img{
+            width: 100%!important;
+            float: left!important;
+            max-width: 100%;
+            height: auto;
+            object-fit: cover;
+        }
     }
 }
